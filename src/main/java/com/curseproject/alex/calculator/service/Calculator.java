@@ -1,9 +1,10 @@
 package com.curseproject.alex.calculator.service;
 
 import com.curseproject.alex.calculator.model.Info;
+import com.curseproject.alex.calculator.model.Response;
 
-import java.util.Map;
+import java.util.List;
 
 public interface Calculator {
-    Map<String, String> calculate(Info info);
+    Response calculate(List<Info> infos);
 }
